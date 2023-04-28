@@ -52,7 +52,12 @@ We need to set the theme in our `~/.zshrc` file by adding the following line.
 ZSH_THEME="powerlevel10k/powerlevel10k"
 ```
 
-Now you need to either restart iTerm2 or run `source ~/.zshrc` to load the theme. Next, PowerLevel10k configuration wizard opens up and you can setup any way you want.
+Now you need to either restart iTerm2 or run `source ~/.zshrc` to load the theme. Next, PowerLevel10k configuration wizard opens up and you can setup any way you want. If you ever want to change those configurations edit `~/.p10k.zsh` or just run:
+
+``` shell
+p10k configure
+```
+
 
 As for the color scheme, you can find lots of them in the [iTerm2 Color Schemes](https://iterm2colorschemes.com/) website. There you can follow the instructions to download and install them. Basically, you need to to iTerm Preferences, Profiles, Colors, Colors Presets, Import and select the color scheme you downloaded. I use the Github Dark scheme.
 
